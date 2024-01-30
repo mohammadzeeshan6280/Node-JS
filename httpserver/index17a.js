@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
     }
    
     else {
-        res.writeHead(404, {"Content-type": "text.html"})
+        res.writeHead(404, {"Content-type": "text/html"})
         res.end(" <h1> 404 error pages. Page doesn't exist </h1>")
         
     }

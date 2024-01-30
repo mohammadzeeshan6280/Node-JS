@@ -25,7 +25,7 @@
 //             }
 //         );
 //          } else {
-//         res.writeHead(404, {"Content-type": "text.html"})
+//         res.writeHead(404, {"Content-type": "text/html"})
 //         res.end(" <h1> 404 error pages. Page doesn't exist </h1>")
         
 //     }
@@ -60,7 +60,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, {"content-type" : "application/json"})
                 res.end(objData[23].name);
          } else {
-        res.writeHead(404, {"Content-type": "text.html"})
+        res.writeHead(404, {"Content-type": "text/html"})
         res.end(" <h1> 404 error pages. Page doesn't exist </h1>")
         
     }
