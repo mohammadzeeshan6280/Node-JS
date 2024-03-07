@@ -1,7 +1,3 @@
-// 2ns Way
-// Reading from a Stream
-// Create a readable Stream
-// Handle stream events ---> data, end, and error
 
 /*
 // const fs = require("fs")
@@ -20,6 +16,11 @@
 // server.listen(8000, "127.0.0.1");
 */
 
+
+// 2ns Way
+// Reading from a Stream
+// Create a readable Stream
+// Handle stream events ---> data, end, and error
 
 const fs = require("fs")
 const http = require("http");
